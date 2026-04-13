@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
   Brain, 
-  Sparkles, 
+  Sparkles,
   Code, 
   FileText, 
   Eye, 
