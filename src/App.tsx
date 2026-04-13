@@ -20,15 +20,15 @@ import {
   Settings,
   Key
 } from "lucide-react";
-import { Button } from "./components/ui/button";
-import { Input } from "./components/ui/input";
-import { Textarea } from "./components/ui/textarea";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
-import { ScrollArea } from "./components/ui/scroll-area";
-import { Label } from "./components/ui/label";
-import { Badge } from "./components/ui/badge";
-import { Toaster } from "./components/ui/sonner";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Label } from "@/components/ui/label";
+import { Badge } from "@/components/ui/badge";
+import { Toaster } from "@/components/ui/sonner";
 import { 
   Dialog, 
   DialogContent, 
@@ -36,10 +36,10 @@ import {
   DialogFooter, 
   DialogHeader, 
   DialogTitle 
-} from "./components/ui/dialog";
+} from "@/components/ui/dialog";
 import { toast } from "sonner";
 import ReactMarkdown from "react-markdown";
-import { generateLandingPage, LandingPageInput, LandingPageResult, getEffectiveApiKey } from "./lib/gemini";
+import { generateLandingPage, LandingPageInput, LandingPageResult, getEffectiveApiKey } from "@/lib/gemini";
 
 export default function App() {
   const [input, setInput] = useState<LandingPageInput>({
